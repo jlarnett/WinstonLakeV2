@@ -82,11 +82,11 @@ namespace Winston.Control
 	        return false;                                                   //If we make it here on the update cycle that means there were no raycastable components
 	    }
 
-	    RaycastHit[] RaycastAllSorted()
+	    public RaycastHit[] RaycastAllSorted()
 	    {
 	        //Sorts the order of raycast relative to distance of camera
 	        //Get all hits
-	        RaycastHit[] hits = Physics.SphereCastAll(GetMouseRay(), raycastRadius);
+	        RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
 
 	        //Sort by distance
 	        float[] distances = new float[hits.Length];     //Create an aray same size as hits 

@@ -1,0 +1,19 @@
+- Updated Picker with SerializedProperty extension methods GetParent, GetValue, SetValue
+- Info: If class is renamed but still has references this attribute is required: [UnityEngine.Scripting.APIUpdating.MovedFromAttribute("oldclass")] or unlink all references!
+- Sub-classes of ItemContainer display all properties in inspector without writing custom Inspector
+- Improved CollectionEditor
+- OnAddItem callback returns the current added item 
+- Fixed OnRemoveItem callback in Inspector was not called
+- ItemCollection splits items into MaxStack stacks. -> Iron with Max Stack 10 -> If ItemCollection has 25 iron -> it will have 3 stacks 2x10 iron and 1x5 iron
+- Generate new id when item is duplicated in editor
+- Fixed Trigger Edit Behavior Window when selection is changed.
+- Show Notification action for Trigger
+- Slot extends from CallbackHandler and has OnAddItem, OnRemoveItem, OnUseItem callbacks. Useful for Equipment window to hide icon background.
+- Global ItemContainer restrictions
+- Fixed Attach Prefab Handle in EquipmentHandler
+- Stats Modifiers are now also applied without VisualItem in EquipmentHandler
+- Auto create EventSystem if missing
+- Auto add PhysicsRaycaster if missing, by default PhysicsRaycaster is added. If you use PhysicsRaycaster2D please add it manually.
+- Fixed Formula string ports used in GetStatValue, GetStatCurrentValue not displaying stat name.
+- Stats Max Value = -1 defines unlimited
+- Improved drawing pererformance for actions.
