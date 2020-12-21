@@ -1,7 +1,16 @@
 ﻿using DevionGames.InventorySystem;
 using UnityEngine;
 
-public class Tool : EquipmentItem
+namespace Winston.Inventory
 {
-    [SerializeField] private ToolType toolType;
+    public class Tool : Weapon
+    {
+        [SerializeField] private ToolType toolType;
+        [SerializeField] private int energyConsumption = 5;
+
+        public int GetEnergyConsumption()
+        {
+            return energyConsumption;
+        }
+    }
 }

@@ -1,8 +1,13 @@
-﻿public enum ToolType
+﻿namespace Winston.Inventory
 {
-    Hoe,
-    Sickle,
-    Milker,
-    WaterCan,
-    PickAxe
+    public enum ToolType
+    {
+        Hoe,
+        Sickle,
+        Milker,
+        WaterCan,
+        PickAxe
+    }
 }
+
+

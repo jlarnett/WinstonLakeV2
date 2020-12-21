@@ -15,6 +15,7 @@ public class HudDisplay : MonoBehaviour
 
     private Health health = null;
     private Energy energy;
+
     private GameTimer timer;
 
     private void HandleHealthUpdated(int currentHealth)

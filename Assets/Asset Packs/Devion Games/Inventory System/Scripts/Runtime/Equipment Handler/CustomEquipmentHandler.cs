@@ -30,7 +30,8 @@ namespace DevionGames.InventorySystem
             EquipItem(item);
         }
 
-        private void EquipItem(Item item) {
+        private void EquipItem(Item item)
+        {
             foreach (ObjectProperty property in item.GetProperties())
             {
                 if (property.SerializedType == typeof(int) || property.SerializedType == typeof(float))

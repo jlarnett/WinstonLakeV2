@@ -8,16 +8,19 @@ namespace DevionGames.InventorySystem
     {
         [Header("Activation:")]
         [InspectorLabel("Input Name")]
-        [SerializeField]
-        protected string m_ActivationInputName;
-        [SerializeField]
-        protected ActivationType m_ActivationType;
+
+        [SerializeField] protected string m_ActivationInputName;
+        [SerializeField] protected ActivationType m_ActivationType;
 
         private bool m_IsActive;
-        protected bool IsActive {
+
+        protected bool IsActive
+        {
             get { return this.m_IsActive; }
-            set {
-                if (this.m_IsActive != value) {
+            set
+            {
+                if (this.m_IsActive != value) 
+                {
                     this.m_IsActive=value;
                     OnItemActivated(this.m_IsActive);
                 }
@@ -26,28 +29,39 @@ namespace DevionGames.InventorySystem
 
         [Header("Use:")]
         [InspectorLabel("Input Name")]
+
         [SerializeField]
         protected string m_UseInputName = "Fire1";
+
         [SerializeField]
         protected StartType m_StartType;
+
         [SerializeField]
         protected StopType m_StopType;
 
         [Header("Animator IK:")]
+
         [SerializeField]
         protected Transform m_RightHandIKTarget;
+
         [SerializeField]
         protected float m_RightHandIKWeight = 1f;
+
         [SerializeField]
         protected float m_RightHandIKSpeed = 1f;
+
+
         protected float m_RightHandIKLerp = 0f;
 
         [SerializeField]
         protected Transform m_LeftHandIKTarget;
+
         [SerializeField]
         protected float m_LeftHandIKWeight = 1f;
+
         [SerializeField]
         protected float m_LeftHandIKSpeed = 1f;
+
         protected float m_LeftHandIKLerp = 0f;
 
 
@@ -94,11 +108,11 @@ namespace DevionGames.InventorySystem
             switch (this.m_ActivationType)
             {
                 case ActivationType.Button:
-
                     IsActive = Input.GetButton(this.m_ActivationInputName);
-
                     break;
+
                 case ActivationType.Toggle:
+
                     if (Input.GetButtonDown(this.m_ActivationInputName))
                     {
                         IsActive = !IsActive;
@@ -212,7 +226,9 @@ namespace DevionGames.InventorySystem
                 this.m_CharacterAnimator.CrossFadeInFixedTime(this.m_IdleState, 0.2f);
 
                 this.m_InUse = false;
-            } else {
+            } 
+            else
+            {
                 this.m_CharacterAnimator.SetInteger("Item ID",0);
                 for (int j = 0; j < this.m_DefaultStates.Length; j++)
                 {

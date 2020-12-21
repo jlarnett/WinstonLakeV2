@@ -29,8 +29,7 @@ MonoBehaviour:
   m_Id: d498fc18-b018-47fb-a353-5f61052108a4
   m_ItemName: Bow
   m_Icon: {fileID: 21300000, guid: 5d7061fc7da05ce44add317708ec7215, type: 3}
-  m_Prefab: {fileID: 8054533140301882152, guid: 439347daebb9d4c49bc0207cc598caa0,
-    type: 3}
+  m_Prefab: {fileID: 8054533140301882152, guid: 439347daebb9d4c49bc0207cc598caa0, type: 3}
   m_Description: Use a bow to attack enemies from range.
   m_Category: {fileID: -5355670550631679221}
   m_PossibleRarity:
@@ -371,8 +370,7 @@ MonoBehaviour:
   m_Id: 7104b05e-6d4e-4447-87bd-aad3db602483
   m_ItemName: Wood
   m_Icon: {fileID: 21300000, guid: b69b1ca52acfaed43b07c602653a71fd, type: 3}
-  m_Prefab: {fileID: 8050120179880737813, guid: 9c7a32b2c2e150b4a9f6d6d8974a9f40,
-    type: 3}
+  m_Prefab: {fileID: 8050120179880737813, guid: 9c7a32b2c2e150b4a9f6d6d8974a9f40, type: 3}
   m_Description: Resource for crafting items.
   m_Category: {fileID: -7427245140175711199}
   m_PossibleRarity: []
@@ -419,8 +417,7 @@ MonoBehaviour:
   m_Id: deaf6164-418d-4a18-bc10-d1cb6580f1e4
   m_ItemName: Axe
   m_Icon: {fileID: 21300000, guid: 81e9ec1d21e1f8f43a06e7e75c17fc37, type: 3}
-  m_Prefab: {fileID: 7757701744868425547, guid: 6a881db9233fb0748ad9709b178e05e2,
-    type: 3}
+  m_Prefab: {fileID: 7757701744868425547, guid: 6a881db9233fb0748ad9709b178e05e2, type: 3}
   m_Description: An axe can be used to cut trees.
   m_Category: {fileID: -9040799555073544844}
   m_PossibleRarity:
@@ -849,8 +846,7 @@ MonoBehaviour:
   m_Id: 77eb276e-4388-4545-9fe6-b513438e9719
   m_ItemName: Shield
   m_Icon: {fileID: 21300000, guid: b97c91e8b348f3f4ebdc11f5c82182cd, type: 3}
-  m_Prefab: {fileID: 6955947972541771316, guid: caa4712265fb87f48917ca9e4be3350a,
-    type: 3}
+  m_Prefab: {fileID: 6955947972541771316, guid: caa4712265fb87f48917ca9e4be3350a, type: 3}
   m_Description: A wooden shield.
   m_Category: {fileID: 8705209814584371102}
   m_PossibleRarity:
@@ -949,8 +945,7 @@ MonoBehaviour:
   m_Id: 7f88be02-e6ca-4ec2-b89f-4f5febd3dcf5
   m_ItemName: Hammer
   m_Icon: {fileID: 21300000, guid: f6293f20fd85aa143bead12afd67ebbb, type: 3}
-  m_Prefab: {fileID: 5445779230513671954, guid: f82bc419a6e172a44bd05e66d42408dc,
-    type: 3}
+  m_Prefab: {fileID: 5445779230513671954, guid: f82bc419a6e172a44bd05e66d42408dc, type: 3}
   m_Description: Hammer is used to craft items.
   m_Category: {fileID: -9040799555073544844}
   m_PossibleRarity:
@@ -1007,8 +1002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - {fileID: -2060425377994505070}
-  - {fileID: 8429455951140046941}
   - {fileID: 1063046599387310152}
+  - {fileID: 8429455951140046941}
   - {fileID: 6234106693565876968}
   - {fileID: 8763039942855579107}
   - {fileID: -5663772737389988193}
@@ -1025,8 +1020,8 @@ MonoBehaviour:
   - {fileID: 960666660569578442}
   currencies:
   - {fileID: -2811142919616601772}
-  - {fileID: -6442420119529586086}
   - {fileID: -8859189835947310016}
+  - {fileID: -6442420119529586086}
   raritys:
   - {fileID: 4257271418691296376}
   - {fileID: 1459171670829712994}
@@ -1133,8 +1128,7 @@ MonoBehaviour:
   m_Id: de6b9e9e-9c60-4ba8-a61c-3a6d7a0e5e65
   m_ItemName: Rusty Sword
   m_Icon: {fileID: 21300000, guid: 5fd50594014b70e48bd6993443d46b32, type: 3}
-  m_Prefab: {fileID: 7505499703950806449, guid: 8d1205197ce57bf48b0d586eccfd9e61,
-    type: 3}
+  m_Prefab: {fileID: 7505499703950806449, guid: 8d1205197ce57bf48b0d586eccfd9e61, type: 3}
   m_Description: One handed weapon.
   m_Category: {fileID: -5355670550631679221}
   m_PossibleRarity:
@@ -1263,8 +1257,7 @@ MonoBehaviour:
   m_Id: 77052a30-3511-4faf-bbf6-12ab39f5d855
   m_ItemName: Nail
   m_Icon: {fileID: 21300000, guid: e5cec7d40f0b3224b8ff49b5c174ed93, type: 3}
-  m_Prefab: {fileID: 8526908806523285250, guid: 1961bb04f2536f846a015e7023bb8217,
-    type: 3}
+  m_Prefab: {fileID: 8526908806523285250, guid: 1961bb04f2536f846a015e7023bb8217, type: 3}
   m_Description: Resource for crafting items.
   m_Category: {fileID: -7427245140175711199}
   m_PossibleRarity: []
@@ -1407,8 +1400,7 @@ MonoBehaviour:
   m_Id: cacbc413-2b42-4006-8a72-17f51df5d864
   m_ItemName: Pickaxe
   m_Icon: {fileID: 21300000, guid: 575a1e2821f78e24bb70f3ba24d83bde, type: 3}
-  m_Prefab: {fileID: 2446829401942333329, guid: f8834d5f45c6f6c40906a029b73145c6,
-    type: 3}
+  m_Prefab: {fileID: 2446829401942333329, guid: f8834d5f45c6f6c40906a029b73145c6, type: 3}
   m_Description: A pickaxe can be used to mine.
   m_Category: {fileID: -9040799555073544844}
   m_PossibleRarity:
@@ -1453,8 +1445,7 @@ MonoBehaviour:
   m_Id: 152288af-0366-4252-a6e3-792bda51b22a
   m_ItemName: 'Recipe: Bow'
   m_Icon: {fileID: 21300000, guid: db427fab3e94daf4caa704d9314a77a1, type: 3}
-  m_Prefab: {fileID: 8586804418029938465, guid: bf4366d8a00ec44418140c9fb529068e,
-    type: 3}
+  m_Prefab: {fileID: 8586804418029938465, guid: bf4366d8a00ec44418140c9fb529068e, type: 3}
   m_Description: This recipe teaches you to craft a bow.
   m_Category: {fileID: -6294223960729143046}
   m_PossibleRarity: []
@@ -1834,8 +1825,7 @@ MonoBehaviour:
   m_Id: 5607774a-5409-412d-916a-54ed6692f441
   m_ItemName: Arrow
   m_Icon: {fileID: 21300000, guid: e50febd6717db2b43a8fa67d1259fa02, type: 3}
-  m_Prefab: {fileID: 8838616929701194134, guid: 406b98225cd8404479b032b2508644f5,
-    type: 3}
+  m_Prefab: {fileID: 8838616929701194134, guid: 406b98225cd8404479b032b2508644f5, type: 3}
   m_Description: Arrows are required to use a bow.
   m_Category: {fileID: -7427245140175711199}
   m_PossibleRarity: []
@@ -2077,8 +2067,7 @@ MonoBehaviour:
   m_Id: 71139cc0-8276-4974-ab21-d551b4c013dd
   m_ItemName: Health Potion
   m_Icon: {fileID: 21300000, guid: fb38af54312632d47bc615bfe636f9a4, type: 3}
-  m_Prefab: {fileID: 7185777887056126559, guid: 7129d33baee5a304fa5a78de1cd04f6a,
-    type: 3}
+  m_Prefab: {fileID: 7185777887056126559, guid: 7129d33baee5a304fa5a78de1cd04f6a, type: 3}
   m_Description: Restores your health by 10 points.
   m_Category: {fileID: 171625507360801261}
   m_PossibleRarity: []
@@ -2273,8 +2262,7 @@ MonoBehaviour:
   m_Id: e893343b-3f8d-430c-85af-5a9ef62ed18c
   m_ItemName: Iron
   m_Icon: {fileID: 21300000, guid: 3e4fcc84a0ac95b429c56452575f6021, type: 3}
-  m_Prefab: {fileID: 8122114857979880778, guid: 9ca50f633f494d14fb4aef0e7f958c7c,
-    type: 3}
+  m_Prefab: {fileID: 8122114857979880778, guid: 9ca50f633f494d14fb4aef0e7f958c7c, type: 3}
   m_Description: Resource for crafting items.
   m_Category: {fileID: -7427245140175711199}
   m_PossibleRarity: []

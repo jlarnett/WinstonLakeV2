@@ -19,7 +19,8 @@ namespace DevionGames.InventorySystem
             collection.Add(GenerateItems().ToArray());
         }
 
-        private List<Item> GenerateItems() {
+        private List<Item> GenerateItems()
+        {
             List<Item> generatedItems = new List<Item>();
             IEnumerable<int> indices = Enumerable.Range(0, this.m_ItemGeneratorData.Count).OrderBy(x=> rng.Next());
 

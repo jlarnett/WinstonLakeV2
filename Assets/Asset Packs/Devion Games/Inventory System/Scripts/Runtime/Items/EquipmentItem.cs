@@ -6,7 +6,8 @@ namespace DevionGames.InventorySystem
 {
 
 	[System.Serializable]
-	public class EquipmentItem : UsableItem {
+	public class EquipmentItem : UsableItem
+	{
 		[EquipmentPicker(true)]
 		[SerializeField]
 		private List<EquipmentRegion> m_Region= new List<EquipmentRegion>();

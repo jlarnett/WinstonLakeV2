@@ -342,8 +342,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 7ca9a523b26feae48a74e3ac950ebb52,
-    type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 7ca9a523b26feae48a74e3ac950ebb52, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -577,7 +576,7 @@ MonoBehaviour:
   timeToPlay: 0.24
 --- !u!206 &206198367090547204
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -640,7 +639,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206206014969664314
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -791,7 +790,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206212976288005350
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -941,7 +940,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206246267444183640
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1092,7 +1091,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206255481646590656
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1241,7 +1240,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206304383827218564
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1304,7 +1303,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206420498795972140
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1367,7 +1366,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206443562891569346
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1517,7 +1516,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206540741350967824
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1667,7 +1666,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206625605984017302
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1872,7 +1871,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206704474590921764
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1990,7 +1989,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206729626464775632
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2029,7 +2028,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206772782698157370
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2116,7 +2115,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206844337922726280
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2155,7 +2154,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206896321809505266
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2408,7 +2407,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!206 &206938421900827998
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2447,7 +2446,7 @@ BlendTree:
   m_BlendType: 0
 --- !u!206 &206973976905875602
 BlendTree:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3302,7 +3301,7 @@ AnimatorStateMachine:
     m_Position: {x: 264, y: 336, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102913229806761022}
-    m_Position: {x: 264, y: 384, z: 0}
+    m_Position: {x: 260, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102800328499890682}
     m_Position: {x: 264, y: 192, z: 0}
@@ -3428,8 +3427,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 68de59f1e67089b4ebdad089efe2a9f1,
-    type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 68de59f1e67089b4ebdad089efe2a9f1, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -61,6 +61,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -85,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1169240632
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -164,8 +166,7 @@ MonoBehaviour:
         m_Type: 
         m_Enabled: 1
         requiredItems:
-        - item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83,
-            type: 2}
+        - item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
           boolValue: 0
           stringValue: Equipment
           intValue: 0
@@ -274,8 +275,7 @@ MonoBehaviour:
         m_Type: 
         m_Enabled: 1
         m_Target: 0
-        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d,
-          type: 3}
+        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d, type: 3}
         m_BoneName: 
         m_Offset: {x: 0, y: 0.2, z: 0}
         m_IgnorePlayerCollision: 1

@@ -226,7 +226,6 @@ namespace DevionGames.InventorySystem
         /// <returns>Returns true if the item can be added.</returns>
         public virtual bool CanAddItem(Item item)
         {
-            if (item == null) { return true; }
             for (int i = 0; i < restrictions.Count; i++)
             {
                 if (!restrictions[i].CanAddItem(item))
